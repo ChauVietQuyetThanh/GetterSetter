@@ -48,7 +48,7 @@ public class Student {
 		return "name: "+name+"\nage: "+age+"\nPhoneNumber: "+PhoneNumber+"\nAddress: "+Address+"\nMark: "+Mark;
 	}
    public static void main(String[] args) {
-	   Student student = new Student("Hậu", 19, "0997008070", "Quảng Trị", 7.6);
+	   Student student = new Student("Thanh", 19, "0997008070", "Hue", 7.6);
 	   System.out.println(student);
    }
 }
